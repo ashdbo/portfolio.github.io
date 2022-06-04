@@ -82,6 +82,5 @@ let changeTheme = function() {
 
 window.onload = loadTheme;
 themeButton.onclick = changeTheme;
-for(let i = 0; i < nav.length; i++){
-    nav.onclick = loadTheme;
-}
+nav[0].onclick = loadTheme;
+nav[1].onclick = loadTheme;
